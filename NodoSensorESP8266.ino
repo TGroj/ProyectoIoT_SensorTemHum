@@ -15,10 +15,10 @@
 DHT dht = DHT(DHTPIN, DHTTYPE);
 
 //Credenciales WiFi
-char ssid[] = "SITHOME";
-char pass[] = "sitnet2019.";
+char ssid[] = "XXXXX";
+char pass[] = "XXXXX";
 //Direccion servidor MQTT
-const char* mqtt_server = "192.168.1.199";
+const char* mqtt_server = "XXXXX";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
